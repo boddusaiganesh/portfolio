@@ -15,7 +15,7 @@ load_dotenv()
 # ── Configuration ───────────────────────────────────────────────────────
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "")
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
-AI_MODEL = "meta-llama/llama-4-maverick:free"
+AI_MODEL = "arcee-ai/trinity-large-preview:free"
 
 # Load resume data
 RESUME_PATH = os.path.join(os.path.dirname(__file__), "resume_data.json")
