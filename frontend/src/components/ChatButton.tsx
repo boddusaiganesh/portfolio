@@ -1,0 +1,24 @@
+import './ChatButton.css';
+
+interface ChatButtonProps {
+    onClick: () => void;
+    isOpen: boolean;
+}
+
+const ChatButton = ({ onClick, isOpen }: ChatButtonProps) => {
+    if (isOpen) return null;
+
+    return (
+        <button className="chat-fab" onClick={onClick} aria-label="Open AI Chat">
+            <div className="chat-fab__pulse"></div>
+            <div className="chat-fab__icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                </svg>
+            </div>
+            <span className="chat-fab__label">Ask AI</span>
+        </button>
+    );
+};
+
+export default ChatButton;

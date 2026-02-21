@@ -1,0 +1,227 @@
+{
+  "name": "Boddu Sai Ganesh Reddy",
+  "title": "AI/ML Engineer & Full-Stack Developer",
+  "email": "boddusaiganesh81@gmail.com",
+  "phone": "+91 9392359162",
+  "location": "Andhra Pradesh, India",
+  "website": "",
+  "linkedin": "",
+  "github": "https://github.com/boddusaiganesh",
+  "bio": "AI/ML Engineer with hands-on experience developing production-ready intelligent systems using Generative AI, Large Language Models, and advanced machine learning techniques. Expertise in building multi-modal AI applications, Agentic AI systems with multi-agent orchestration, RAG pipelines, computer vision, and NLP systems. Strong foundation in deep learning frameworks (PyTorch, Hugging Face Transformers), natural language processing, and full-stack development. Recognized as GHCI 2025 Hackathon Finalist for innovative AI-powered verification system achieving 99% performance improvement. Currently pursuing B.Tech in CSE at VIT-AP University (CGPA 8.88/10).",
+  "skills": {
+    "AI & ML Frameworks": [
+      "PyTorch",
+      "Hugging Face Transformers",
+      "SpaCy",
+      "BERT",
+      "TensorFlow",
+      "rembg (U-2-Net)"
+    ],
+    "Generative AI": [
+      "LLMs",
+      "Google Gemini API",
+      "Groq API (Llama 3)",
+      "Prompt Engineering",
+      "RAG Pipelines",
+      "Model Fallback Strategies"
+    ],
+    "RAG & Vector DBs": [
+      "ChromaDB",
+      "FAISS",
+      "Semantic Search",
+      "Document Chunking",
+      "Sentence-Transformers",
+      "Retrieval Augmented Generation"
+    ],
+    "Agentic AI": [
+      "Multi-Agent Systems",
+      "Agent Orchestration",
+      "Chain-of-Thought Reasoning",
+      "Self-Critique Agents",
+      "Risk Detection Agents"
+    ],
+    "NLP": [
+      "Text Classification",
+      "NER",
+      "Dependency Parsing",
+      "Coreference Resolution",
+      "POS Tagging",
+      "Information Extraction"
+    ],
+    "Computer Vision": [
+      "OCR",
+      "Facial Recognition",
+      "Liveness Detection",
+      "AI Background Removal",
+      "Image Processing",
+      "OpenCV"
+    ],
+    "Frontend": [
+      "React",
+      "TypeScript",
+      "Vite",
+      "TailwindCSS",
+      "Framer Motion",
+      "HTML5",
+      "CSS3"
+    ],
+    "Backend": [
+      "Python FastAPI",
+      "Node.js",
+      "Express.js",
+      "Java Spring Boot",
+      "RESTful APIs",
+      "JWT Auth"
+    ],
+    "Databases": [
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB",
+      "SQLite",
+      "ChromaDB",
+      "Vector Databases"
+    ],
+    "DevOps & Cloud": [
+      "Docker",
+      "Git",
+      "GitHub",
+      "Google Cloud AI",
+      "Postman",
+      "Maven"
+    ]
+  },
+  "experience": [
+    {
+      "company": "Infosys Springboard",
+      "role": "Java Developer Intern",
+      "period": "Aug 2025 – Oct 2025",
+      "location": "Remote",
+      "highlights": [
+        "Engineered and launched MedVault, a full-stack hospital management web application with AI-powered features serving administrators, doctors, and patients",
+        "Developed secure stateless REST API using Java Spring Boot with JWT-based authentication and role-based access control",
+        "Built dynamic responsive UI with ReactJS creating multi-page dashboard for appointment booking, patient management, and feedback collection",
+        "Designed and optimized MySQL database schema using JPA and Hibernate for complex entity relationships",
+        "Implemented Spring Security framework for authentication and authorization across application layers"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "AI-Powered KYC Verification System",
+      "description": "GHCI 2025 Hackathon Finalist — Production-ready KYC platform reducing identity verification from 2-7 days to 5-10 seconds (99% faster, 95% cost reduction). Features industry-first bias detection with live EEOC 80% Rule fairness monitoring, Google Gemini AI for multi-modal document OCR, facial recognition, liveness detection, and 6-layer security architecture.",
+      "tech": [
+        "Node.js",
+        "Express",
+        "React",
+        "TypeScript",
+        "PostgreSQL",
+        "Google Gemini AI",
+        "Docker",
+        "JWT"
+      ],
+      "link": "#",
+      "github": "https://github.com/boddusaiganesh"
+    },
+    {
+      "name": "AI-Powered MD&A Generator",
+      "description": "Agentic AI system with multi-agent orchestration (Critique Agent, Risk Detection Agent, Comparative Analysis Agent) for automated financial report generation from SEC statements. RAG pipeline using ChromaDB with HuggingFace embeddings, 14+ KPI metrics, 6-layer guardrails, and 95%+ factuality scores.",
+      "tech": [
+        "Python",
+        "Google Gemini API",
+        "Groq (Llama 3)",
+        "ChromaDB",
+        "RAG",
+        "FastAPI",
+        "Streamlit"
+      ],
+      "link": "#",
+      "github": "https://github.com/boddusaiganesh"
+    },
+    {
+      "name": "Tesco Creative Studio",
+      "description": "Tesco Retail Media Hackathon — Full-stack AI-powered creative builder for guideline-compliant retail media. Features AI background removal using rembg (U-2-Net), 18-rule compliance validation engine, Google Gemini for text compliance and AI-powered layout suggestions, interactive Fabric.js canvas editor.",
+      "tech": [
+        "React 18",
+        "Vite",
+        "Fabric.js",
+        "Python FastAPI",
+        "Google Gemini AI",
+        "rembg",
+        "SQLite"
+      ],
+      "link": "#",
+      "github": "https://github.com/boddusaiganesh"
+    },
+    {
+      "name": "Crime Information Extraction System",
+      "description": "Unified crime text analysis platform combining deep learning intensity prediction with rule-based entity extraction. Custom BertWithFeatures model integrating BERT transformer with 6 handcrafted SpaCy features for crime severity classification on 1-5 scale.",
+      "tech": [
+        "Python",
+        "PyTorch",
+        "BERT",
+        "Hugging Face",
+        "SpaCy",
+        "Streamlit",
+        "NLP"
+      ],
+      "link": "#",
+      "github": "https://github.com/boddusaiganesh"
+    },
+    {
+      "name": "Your Health Compass",
+      "description": "Advanced Agentic RAG system using ChromaDB vector store and Tavily AI for real-time web searches and intelligent health document retrieval. Google Gemini for AI-powered decision-making with context-aware answers and automatic source citations.",
+      "tech": [
+        "Python FastAPI",
+        "React",
+        "ChromaDB",
+        "Google Gemini",
+        "Tavily AI",
+        "Vector Database"
+      ],
+      "link": "#",
+      "github": "https://github.com/boddusaiganesh"
+    },
+    {
+      "name": "ChatQuick Chrome Extension",
+      "description": "Modern Chrome Extension providing on-demand AI assistance with dynamic injectable UI for browser automation. AI browser agent that parses live DOM to programmatically execute tasks including clicks, form filling, and document generation.",
+      "tech": [
+        "JavaScript",
+        "Chrome Extension Manifest V3",
+        "Generative AI",
+        "DOM Manipulation"
+      ],
+      "link": "#",
+      "github": "https://github.com/boddusaiganesh"
+    }
+  ],
+  "education": [
+    {
+      "institution": "VIT-AP University, Amaravati",
+      "degree": "B.Tech in Computer Science and Engineering",
+      "period": "Sept 2022 – Apr 2026 (Expected)",
+      "highlights": [
+        "CGPA: 8.88/10 (88.8%)",
+        "Relevant Coursework: ML, DL, AI, NLP, Computer Vision, DSA"
+      ]
+    },
+    {
+      "institution": "State Board Senior Secondary Education",
+      "degree": "Class XII",
+      "period": "2022",
+      "highlights": [
+        "Score: 94%"
+      ]
+    }
+  ],
+  "certifications": [
+    "MERN Stack Development Certification",
+    "Java Foundation Certification",
+    "Introduction to Web Development with HTML5, CSS3, and JavaScript"
+  ],
+  "achievements": [
+    "GHCI 2025 Hackathon Finalist — AI-Powered KYC Verification System",
+    "Gold Medal — Inter-University Martial Arts Championship (2024)",
+    "Bronze Medal — State-Level Karate Tournament (2023)",
+    "Club Manager — Dragon Fist Martial Arts Club, VIT-AP (150+ members)"
+  ]
+}
