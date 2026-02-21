@@ -1,4 +1,6 @@
-const API_BASE = 'http://localhost:8000';
+const API_BASE = import.meta.env.PROD
+  ? 'https://portfolio-backend-hmub.onrender.com'
+  : 'http://localhost:8000';
 
 export interface ChatMessage {
   role: 'user' | 'assistant';
